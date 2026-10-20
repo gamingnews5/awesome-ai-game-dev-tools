@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = lambda *p: os.path.join(ROOT, *p)
 doc = json.load(open(D("data/tools.json"))); T, S = doc["tools"], doc["sections"]
 F = json.load(open(D("data/featured.json"))); media = json.load(open(D("data/media.json")))
-SITE = "https://submitgame.github.io/awesome-ai-game-dev-tools/"
+SITE = "https://grootbot-dev.github.io/awesome-ai-game-dev-tools/"
 def esc(s): return (s or "").replace("|", "\\|").replace("\n", " ").strip()
 def k(n): return f"{n/1000:.1f}k" if n >= 1000 else str(n)
 def anchor(s): return re.sub(r"[^a-z0-9 -]", "", s.lower()).replace(" ", "-")
@@ -59,7 +59,7 @@ def hosted_block(sk):
 act = [e for e in T if not e["inactive"]]; old = [e for e in T if e["inactive"]]
 sec = lambda s: [e for e in act if e["section"] == s]
 L = ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file -->",
-'<a href="https://submitgame.github.io/awesome-ai-game-dev-tools/"><img src="assets/banner.svg" width="100%" alt="Awesome AI Game Dev Tools"></a>', "",
+'<a href="https://grootbot-dev.github.io/awesome-ai-game-dev-tools/"><img src="assets/banner.svg" width="100%" alt="Awesome AI Game Dev Tools"></a>', "",
 "# Awesome AI Game Dev Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "",
 "> Open-source AI tools for making games, and for **decompiling, remixing and mashing up the games you already own**. Every entry is a GitHub repo with **100+ stars and a push in the last year**, with real star counts pulled from the GitHub API and refreshed daily.", "",
 f"**{doc['active']} active tools** · {doc['inactive']} inactive · updated {doc['generated_at'][:10]} · browse with tag filters on the **[website]({SITE})** · data in [`data/tools.json`](data/tools.json)", "",
