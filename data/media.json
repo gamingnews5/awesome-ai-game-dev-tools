@@ -1108,5 +1108,51 @@
   "homepage_status": 200,
   "screenshot": "screenshots/bailo167-awesome-game-mashups.jpg",
   "source": "capture:https://bailo167.github.io/awesome-game-mashups/"
+ },
+ "deepseek-ai/deepseek-harness": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/deepseek-ai-deepseek-harness.jpg",
+  "source": "social-preview"
+ },
+ "earendil-works/pi": {
+  "screenshot": "screenshots/earendil-works-pi.jpg",
+  "source": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/docs/images/exy.png"
+ },
+ "can1357/oh-my-pi": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/can1357-oh-my-pi.jpg",
+  "source": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/assets/python.webp"
+ },
+ "Zoo-Code-Org/Zoo-Code": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/zoo-code-org-zoo-code.jpg",
+  "source": "capture:https://www.zoocode.dev"
+ },
+ "invoke-ai/InvokeAI": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/invoke-ai-invokeai.jpg",
+  "source": "social-preview"
+ },
+ "FP-Studio/framepack-studio": {
+  "screenshot": "screenshots/fp-studio-framepack-studio.jpg",
+  "source": "https://github.com/user-attachments/assets/b86a8422-f4ce-452b-80eb-2ba91945f2ea"
+ },
+ "debpalash/VoiceStudio": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/debpalash-voicestudio.jpg",
+  "source": "social-preview"
+ },
+ "w-okada/voice-changer": {
+  "screenshot": "screenshots/w-okada-voice-changer.jpg",
+  "source": "https://user-images.githubusercontent.com/48346627/206640768-53f6052d-0a96-403b-a06c-6714a0b7471d.png"
+ },
+ "ace-step/ACE-Step-1.5": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ace-step-ace-step-1-5.jpg",
+  "source": "https://raw.githubusercontent.com/ace-step/ACE-Step-1.5/main/assets/star.gif"
+ },
+ "0xShug0/audio.cpp": {
+  "screenshot": "screenshots/0xshug0-audio-cpp.jpg",
+  "source": "https://raw.githubusercontent.com/0xShug0/audio.cpp/main/assets/figure/technology_cloud_v1.png"
  }
 }

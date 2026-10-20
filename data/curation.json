@@ -46,7 +46,11 @@
   "keijiro/AICommand",
   "gd3kr/BlenderGPT",
   "TREE-Ind/Blender-GPT",
-  "voideditor/void"
+  "voideditor/void",
+  "earendil-works/pi",
+  "Zoo-Code-Org/Zoo-Code",
+  "deepseek-ai/deepseek-harness",
+  "can1357/oh-my-pi"
  ],
  "gamegen": [
   "Tencent-Hunyuan/Hunyuan-GameCraft-1.0",
@@ -116,7 +120,8 @@
   "Stability-AI/StableStudio",
   "zzzyuqing/DreamMat",
   "ashawkey/InTeX",
-  "coolzilj/Blender-ControlNet"
+  "coolzilj/Blender-ControlNet",
+  "invoke-ai/InvokeAI"
  ],
  "3d": [
   "Tencent-Hunyuan/Hunyuan3D-2",
@@ -155,7 +160,8 @@
   "Stanford-TML/EDGE",
   "IDEA-Research/DWPose",
   "NVlabs/neuralangelo",
-  "academa-labs/manimgx"
+  "academa-labs/manimgx",
+  "FP-Studio/framepack-studio"
  ],
  "audio": [
   "ace-step/ACE-Step",
@@ -198,7 +204,11 @@
   "yl4579/StyleTTS2",
   "metavoiceio/metavoice-src",
   "Audio-AGI/WavJourney",
-  "AIGC-Audio/AudioGPT"
+  "AIGC-Audio/AudioGPT",
+  "debpalash/VoiceStudio",
+  "ace-step/ACE-Step-1.5",
+  "w-okada/voice-changer",
+  "0xShug0/audio.cpp"
  ],
  "npc": [
   "a16z-infra/ai-town",

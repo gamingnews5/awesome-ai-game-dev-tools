@@ -40,7 +40,11 @@
   "flopperam/unreal-engine-mcp",
   "ahujasid/blender-mcp",
   "anthropics/skills",
-  "Orama-Interactive/Pixelorama"
+  "Orama-Interactive/Pixelorama",
+  "earendil-works/pi",
+  "Zoo-Code-Org/Zoo-Code",
+  "deepseek-ai/deepseek-harness",
+  "can1357/oh-my-pi"
  ],
  "code": [
   "godotengine/godot",
@@ -64,7 +68,8 @@
   "VAST-AI-Research/TripoSR",
   "nv-tlabs/kimodo",
   "JannisX11/blockbench",
-  "academa-labs/manimgx"
+  "academa-labs/manimgx",
+  "FP-Studio/framepack-studio"
  ],
  "audio": [
   "ace-step/ACE-Step",
@@ -74,7 +79,11 @@
   "coqui-ai/TTS",
   "myshell-ai/OpenVoice",
   "2noise/ChatTTS",
-  "FunAudioLLM/CosyVoice"
+  "FunAudioLLM/CosyVoice",
+  "debpalash/VoiceStudio",
+  "ace-step/ACE-Step-1.5",
+  "w-okada/voice-changer",
+  "0xShug0/audio.cpp"
  ],
  "qa": [
   "Unity-Technologies/ml-agents",
@@ -88,5 +97,8 @@
  ],
  "gamegen": [
   "genex-games/genex-desktop"
+ ],
+ "art": [
+  "invoke-ai/InvokeAI"
  ]
 }

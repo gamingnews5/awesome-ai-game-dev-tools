@@ -1,0 +1,12 @@
+{
+ "earendil-works/pi": "Minimal, extensible agent harness and coding-agent CLI you customize with extensions, skills and prompt templates; run it interactively, in JSON/print mode or over RPC.",
+ "Zoo-Code-Org/Zoo-Code": "A dev team of AI agents in your code editor; community continuation of Roo Code after the Roo team wound down active work.",
+ "deepseek-ai/deepseek-harness": "DeepSeek's open-source agent harness (dsh) built on an everything-is-a-plugin architecture powered by Cordis.",
+ "can1357/oh-my-pi": "Coding agent with the IDE wired in (LSP and debugger ops, 60+ providers, 31 built-in tools); a fork of Pi by Stencil Labs.",
+ "invoke-ai/InvokeAI": "Creative engine for Stable Diffusion-family models with a web UI to generate, refine and iterate on images and build node workflows; installs via a launcher.",
+ "FP-Studio/framepack-studio": "AI video generation app built on FramePack: timestamped prompts, prompt blending, Hunyuan Video LoRAs, a job queue, upscaling and post-processing.",
+ "debpalash/VoiceStudio": "Open-source, fully local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages.",
+ "ace-step/ACE-Step-1.5": "ACE-Step 1.5: open-source local music generation model, the successor to ACE-Step, running on Mac, AMD, Intel and CUDA devices.",
+ "w-okada/voice-changer": "VCClient: real-time AI voice conversion software (RVC, Beatrice and more) with desktop builds for Windows, macOS and Linux.",
+ "0xShug0/audio.cpp": "Pure C++ inference engine for audio models on ggml (no Python): TTS, STT, VAD, voice conversion, music generation and separation via CLI, server API and WebUI."
+}
