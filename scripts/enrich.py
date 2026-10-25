@@ -10,6 +10,11 @@ for hint, repos in json.load(open(D("data/additions.json"))).items():
         if "curated" not in c["sources"]: c["sources"].append("curated")
         c.setdefault("pin", hint)
         c["pin"] = hint
+# Every repo already curated is always re-checked, even if no upstream source lists it today.
+for sec, repos in json.load(open(D("data/curation.json"))).items():
+    for r in repos:
+        c = cands.setdefault(r.lower(), {"repo": r, "sources": [], "hints": []})
+        if "curated" not in c["sources"]: c["sources"].append("curated")
 F = "nameWithOwner url description homepageUrl stargazerCount forkCount isArchived isFork pushedAt openGraphImageUrl usesCustomOpenGraphImage licenseInfo{spdxId} repositoryTopics(first:10){nodes{topic{name}}} defaultBranchRef{target{...on Commit{committedDate}}}"
 keys, out = list(cands), {}
 for i in range(0, len(keys), 40):

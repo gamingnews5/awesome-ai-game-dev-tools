@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T09:05:56Z",
+ "generated_at": "2026-10-25T09:07:57Z",
  "inactive_cutoff": "2024-10-24",
  "sections": {
   "reverse": {
@@ -73,17 +73,17 @@
   "modding": 1,
   "mashups": 1,
   "replacement": 4,
-  "agents": 23,
-  "gamegen": 10,
+  "agents": 24,
+  "gamegen": 13,
   "code": 13,
   "art": 20,
   "3d": 24,
   "audio": 34,
   "npc": 14,
   "qa": 5,
-  "showcase": 3
+  "showcase": 5
  },
- "active": 160,
+ "active": 166,
  "inactive": 61,
  "tools": [
   {
@@ -93,7 +93,7 @@
    "url": "https://github.com/morluto/rea",
    "section": "reverse",
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-   "stars": 380602,
+   "stars": 380612,
    "pushed_at": "2026-10-25T08:57:44Z",
    "archived": false,
    "license": "MIT",
@@ -436,7 +436,7 @@
    "url": "https://github.com/deepseek-ai/deepseek-harness",
    "section": "agents",
    "description": "DeepSeek's open-source agent harness (dsh) built on an everything-is-a-plugin architecture powered by Cordis.",
-   "stars": 260880,
+   "stars": 260882,
    "pushed_at": "2026-10-23T15:25:40Z",
    "archived": false,
    "license": "MIT",
@@ -460,7 +460,7 @@
    "url": "https://github.com/anomalyco/opencode",
    "section": "agents",
    "description": "The open source coding agent.",
-   "stars": 221305,
+   "stars": 221304,
    "pushed_at": "2026-10-25T08:35:54Z",
    "archived": false,
    "license": "MIT",
@@ -484,7 +484,7 @@
    "url": "https://github.com/anthropics/skills",
    "section": "agents",
    "description": "Public repository for Agent Skills",
-   "stars": 183593,
+   "stars": 183595,
    "pushed_at": "2026-10-09T18:45:52Z",
    "archived": false,
    "license": null,
@@ -580,7 +580,7 @@
    "url": "https://github.com/google-gemini/gemini-cli",
    "section": "agents",
    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-   "stars": 108310,
+   "stars": 108311,
    "pushed_at": "2026-10-25T01:31:54Z",
    "archived": false,
    "license": "Apache-2.0",
@@ -605,7 +605,7 @@
    "url": "https://github.com/OpenHands/OpenHands",
    "section": "agents",
    "description": "🙌 OpenHands: AI-Driven Development",
-   "stars": 91773,
+   "stars": 91774,
    "pushed_at": "2026-10-25T08:59:46Z",
    "archived": false,
    "license": "MIT",
@@ -615,7 +615,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -639,7 +639,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -653,7 +653,7 @@
    "url": "https://github.com/cline/cline",
    "section": "agents",
    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-   "stars": 70839,
+   "stars": 70838,
    "pushed_at": "2026-10-24T07:04:13Z",
    "archived": false,
    "license": "Apache-2.0",
@@ -712,7 +712,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -738,13 +739,38 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools",
     "curated"
    ],
    "example": null,
    "note": null,
    "screenshot": "screenshots/ahujasid-mcp-for-blender.jpg",
    "screenshot_source": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/assets/codex-screenshot.png"
+  },
+  {
+   "id": "donchitos-claude-code-game-studios",
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "title": "Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "section": "agents",
+   "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+   "stars": 27479,
+   "pushed_at": "2026-10-19T02:43:42Z",
+   "archived": false,
+   "license": "MIT",
+   "homepage": null,
+   "tags": [
+    "Godot",
+    "Agent"
+   ],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/donchitos-claude-code-game-studios.jpg",
+   "screenshot_source": "github-social-card"
   },
   {
    "id": "qwenlm-qwen3-coder",
@@ -761,7 +787,7 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -861,7 +887,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -962,7 +989,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -987,7 +1015,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1011,7 +1039,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1033,12 +1062,39 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
    "screenshot": "screenshots/princeton-vl-infinigen.jpg",
    "screenshot_source": "https://raw.githubusercontent.com/princeton-vl/infinigen/main/docs/images/infinigen.png"
+  },
+  {
+   "id": "robbyant-lingbot-world",
+   "repo": "Robbyant/lingbot-world",
+   "title": "lingbot-world",
+   "url": "https://github.com/Robbyant/lingbot-world",
+   "section": "gamegen",
+   "description": "Advancing Open-source World Models",
+   "stars": 4543,
+   "pushed_at": "2026-07-09T10:39:39Z",
+   "archived": false,
+   "license": "Apache-2.0",
+   "homepage": "https://technology.robbyant.com/lingbot-world",
+   "tags": [
+    "World model",
+    "Video"
+   ],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/robbyant-lingbot-world.jpg",
+   "screenshot_source": "https://raw.githubusercontent.com/Robbyant/lingbot-world/main/assets/teaser.png"
   },
   {
    "id": "tencent-hunyuan-hunyuanworld-1-0",
@@ -1059,8 +1115,10 @@
    ],
    "inactive": false,
    "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
     "Anil-matcha/awesome-ai-game-generation",
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1085,12 +1143,38 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
    "screenshot": "screenshots/nvlabs-longlive.jpg",
    "screenshot_source": "https://raw.githubusercontent.com/NVlabs/LongLive/main/Long-WAM/assets/demos/g1_cup_stacking.gif"
+  },
+  {
+   "id": "tencent-hunyuan-hy-world-2-0",
+   "repo": "Tencent-Hunyuan/HY-World-2.0",
+   "title": "HY-World-2.0",
+   "url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "section": "gamegen",
+   "description": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+   "stars": 2767,
+   "pushed_at": "2026-08-12T16:15:12Z",
+   "archived": false,
+   "license": "NOASSERTION",
+   "homepage": "https://3d-models.hunyuan.tencent.com/world/",
+   "tags": [
+    "World model"
+   ],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/tencent-hunyuan-hy-world-2-0.jpg",
+   "screenshot_source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-World-2.0/main/assets/teaser.png"
   },
   {
    "id": "skyworkai-matrix-game",
@@ -1109,12 +1193,36 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
    "screenshot": "screenshots/skyworkai-matrix-game.jpg",
    "screenshot_source": "capture:https://matrix-game-v3.github.io/"
+  },
+  {
+   "id": "robbyant-lingbot-world-v2",
+   "repo": "Robbyant/lingbot-world-v2",
+   "title": "lingbot-world-v2",
+   "url": "https://github.com/Robbyant/lingbot-world-v2",
+   "section": "gamegen",
+   "description": "Infinite Worlds with Versatile Interactions",
+   "stars": 1878,
+   "pushed_at": "2026-09-10T07:44:53Z",
+   "archived": false,
+   "license": "NOASSERTION",
+   "homepage": "https://technology.robbyant.com/lingbot-world-v2",
+   "tags": [],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/robbyant-lingbot-world-v2.jpg",
+   "screenshot_source": "https://raw.githubusercontent.com/Robbyant/lingbot-world-v2/main/assets/teaser.png"
   },
   {
    "id": "tencent-hunyuan-hy-worldplay",
@@ -1134,7 +1242,9 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "AgentsLoop/awesome-ai-game-maker",
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1159,7 +1269,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1183,7 +1294,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1227,7 +1339,7 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1373,7 +1485,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1537,7 +1649,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1561,7 +1674,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1586,7 +1700,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1608,7 +1722,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1679,7 +1794,7 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1727,7 +1842,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1751,7 +1867,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1778,6 +1895,7 @@
    "inactive": false,
    "sources": [
     "Yuan-ManX/ai-game-devtools",
+    "curated",
     "simoninithomas/awesome-ai-tools-for-game-dev"
    ],
    "example": null,
@@ -1802,7 +1920,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1826,7 +1945,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1850,7 +1970,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1872,7 +1993,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1896,7 +2018,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1920,7 +2043,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1942,7 +2065,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1966,7 +2090,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -1990,7 +2115,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2014,7 +2140,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2038,7 +2165,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2060,7 +2188,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2110,7 +2239,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2134,7 +2263,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2156,7 +2286,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2180,7 +2311,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2254,7 +2386,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2278,7 +2411,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2303,7 +2436,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2328,7 +2461,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2401,7 +2535,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2450,7 +2585,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2474,7 +2609,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2499,7 +2634,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2574,7 +2710,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2598,7 +2735,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2620,7 +2758,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2634,7 +2773,7 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "section": "audio",
    "description": "Open-source, fully local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation in 646 languages.",
-   "stars": 85457,
+   "stars": 85458,
    "pushed_at": "2026-10-25T07:56:39Z",
    "archived": false,
    "license": "AGPL-3.0",
@@ -2671,7 +2810,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2695,7 +2835,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2720,7 +2861,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2771,7 +2913,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2795,7 +2937,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2819,7 +2962,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2844,7 +2988,6 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools",
     "curated"
    ],
    "example": null,
@@ -2920,7 +3063,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -2996,7 +3140,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3023,7 +3168,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3048,7 +3194,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3072,7 +3219,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3096,7 +3244,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3120,7 +3269,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3169,7 +3319,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3193,7 +3344,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3217,7 +3368,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3241,7 +3393,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3293,7 +3446,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3343,7 +3496,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3367,7 +3521,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3392,7 +3547,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3416,7 +3571,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3442,7 +3598,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3466,7 +3623,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3490,7 +3647,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3516,7 +3674,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3540,7 +3699,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3566,7 +3726,7 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3590,7 +3750,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3612,7 +3773,7 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3636,7 +3797,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3658,7 +3820,8 @@
    "tags": [],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3682,7 +3845,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3709,7 +3873,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3735,7 +3900,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3759,7 +3925,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3784,7 +3951,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3881,7 +4049,8 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -3929,6 +4098,7 @@
    ],
    "inactive": false,
    "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
     "aviaryan/awesome-ai-games",
     "curated"
    ],
@@ -3954,12 +4124,39 @@
    ],
    "inactive": false,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
    "screenshot": "screenshots/ill-inc-biomes-game.jpg",
    "screenshot_source": "capture:https://www.biomes.gg"
+  },
+  {
+   "id": "kevin-liu-01-claude-of-tanks",
+   "repo": "Kevin-Liu-01/Claude-of-Tanks",
+   "title": "Claude-of-Tanks",
+   "url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks",
+   "section": "showcase",
+   "description": "A World of Tanks-style armored combat simulator built directly with Three.js and Vite: 220 vehicles, 33 destructible battlefields, and 13 modes, with plate-level armor, ballistics, modules, spotting, and physics. Play in your browser on des",
+   "stars": 508,
+   "pushed_at": "2026-10-25T09:02:11Z",
+   "archived": false,
+   "license": "MIT",
+   "homepage": "https://cot.kevinliu.studio",
+   "tags": [
+    "Web",
+    "Agent"
+   ],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/kevin-liu-01-claude-of-tanks.jpg",
+   "screenshot_source": "capture:https://cot.kevinliu.studio"
   },
   {
    "id": "mrdoob-three-quake",
@@ -3978,7 +4175,8 @@
    ],
    "inactive": false,
    "sources": [
-    "aviaryan/awesome-ai-games"
+    "aviaryan/awesome-ai-games",
+    "curated"
    ],
    "example": {
     "label": "Play in browser",
@@ -3987,6 +4185,32 @@
    "note": null,
    "screenshot": "screenshots/mrdoob-three-quake.jpg",
    "screenshot_source": "capture:https://mrdoob.github.io/three-quake/"
+  },
+  {
+   "id": "corosolto-client",
+   "repo": "corosolto/client",
+   "title": "client",
+   "url": "https://github.com/corosolto/client",
+   "section": "showcase",
+   "description": "FPS satírico de navegador: 5 facções brasileiras caricatas, 44 personagens, 5 mapas e 26 armas — rounds e Capture the Flag contra bots, direto na aba, sem instalar nada. Three.js + vanilla JS, zero build. Gerado em par com agentes de IA (Cl",
+   "stars": 259,
+   "pushed_at": "2026-10-25T08:42:40Z",
+   "archived": false,
+   "license": "AGPL-3.0",
+   "homepage": "https://www.corosolto.com.br",
+   "tags": [
+    "Web",
+    "Agent"
+   ],
+   "inactive": false,
+   "sources": [
+    "AgentsLoop/awesome-ai-game-maker",
+    "curated"
+   ],
+   "example": null,
+   "note": null,
+   "screenshot": "screenshots/corosolto-client.jpg",
+   "screenshot_source": "capture:https://csbrasil.online"
   },
   {
    "id": "xinntao-real-esrgan",
@@ -4028,7 +4252,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4052,7 +4277,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4076,7 +4302,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4100,7 +4327,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4124,7 +4352,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4148,7 +4377,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4172,6 +4402,7 @@
    ],
    "inactive": true,
    "sources": [
+    "curated",
     "simoninithomas/awesome-ai-tools-for-game-dev"
    ],
    "example": null,
@@ -4196,7 +4427,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4221,7 +4453,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4246,6 +4479,7 @@
    "inactive": true,
    "sources": [
     "Yuan-ManX/ai-game-devtools",
+    "curated",
     "simoninithomas/awesome-ai-tools-for-game-dev"
    ],
    "example": null,
@@ -4271,7 +4505,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4295,7 +4530,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4319,7 +4555,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4343,7 +4580,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4365,7 +4603,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4390,7 +4629,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4414,7 +4654,7 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4439,7 +4679,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4463,7 +4704,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4488,7 +4730,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4513,7 +4756,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4537,7 +4781,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4559,7 +4804,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4583,7 +4829,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4608,7 +4855,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4632,7 +4880,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4654,7 +4903,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4679,7 +4929,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4704,7 +4955,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4728,7 +4980,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4752,7 +5005,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4776,7 +5030,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4798,7 +5053,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4823,7 +5079,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4873,6 +5130,7 @@
    "inactive": true,
    "sources": [
     "Yuan-ManX/ai-game-devtools",
+    "curated",
     "simoninithomas/awesome-ai-tools-for-game-dev"
    ],
    "example": null,
@@ -4898,7 +5156,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4923,7 +5182,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4948,7 +5208,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4973,7 +5234,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -4998,7 +5260,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5022,7 +5285,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5049,7 +5313,7 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5074,7 +5338,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5098,7 +5363,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5122,7 +5388,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5147,7 +5414,7 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5173,7 +5440,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5197,7 +5465,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5222,7 +5491,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5246,7 +5516,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5268,7 +5539,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5293,7 +5565,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5318,7 +5591,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5340,7 +5614,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5364,6 +5639,7 @@
    ],
    "inactive": true,
    "sources": [
+    "curated",
     "simoninithomas/awesome-ai-tools-for-game-dev"
    ],
    "example": null,
@@ -5388,7 +5664,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5410,7 +5687,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5432,7 +5710,8 @@
    "tags": [],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,
@@ -5456,7 +5735,8 @@
    ],
    "inactive": true,
    "sources": [
-    "Yuan-ManX/ai-game-devtools"
+    "Yuan-ManX/ai-game-devtools",
+    "curated"
    ],
    "example": null,
    "note": null,

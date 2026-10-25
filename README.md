@@ -5,7 +5,7 @@
 
 > Open-source AI tools for making games, and for **decompiling, remixing and mashing up the games you already own**. Every entry is a GitHub repo with **100+ stars and a push in the last year**, with real star counts pulled from the GitHub API and refreshed daily.
 
-**160 active tools** · 61 inactive · updated 2026-10-25 · browse with tag filters on the **[website](https://gamingnews5.github.io/awesome-ai-game-dev-tools/)** · data in [`data/tools.json`](data/tools.json)
+**166 active tools** · 61 inactive · updated 2026-10-25 · browse with tag filters on the **[website](https://gamingnews5.github.io/awesome-ai-game-dev-tools/)** · data in [`data/tools.json`](data/tools.json)
 
 ## Contents
 
@@ -16,15 +16,15 @@
    - [c. Agent-driven modding](#1c-agent-driven-modding)
    - [d. Mashups & remixes](#1d-mashups--remixes)
    - [e. AI replacement assets](#1e-ai-replacement-assets)
-2. [Agents & MCP servers](#2-agents--mcp-servers) (23 + 1 hosted)
-3. [Game generation & world models](#3-game-generation--world-models) (10 + 10 hosted)
+2. [Agents & MCP servers](#2-agents--mcp-servers) (24 + 1 hosted)
+3. [Game generation & world models](#3-game-generation--world-models) (13 + 10 hosted)
 4. [Code & engines](#4-code--engines) (13)
 5. [Art](#5-art) (20 + 6 hosted)
 6. [3D, animation & shaders](#6-3d-animation--shaders) (24 + 1 hosted)
 7. [Audio](#7-audio) (34)
 8. [NPCs & narrative](#8-npcs--narrative) (14)
 9. [Testing, QA & analytics](#9-testing-qa--analytics) (5)
-10. [Showcase](#10-showcase) (3)
+10. [Showcase](#10-showcase) (5)
 11. [Inactive / unmaintained](#11-inactive--unmaintained) (61)
 - [Inclusion rules](#inclusion-rules) · [Sources](#sources) · [Contributing](#contributing) · [License](#license)
 
@@ -175,6 +175,7 @@ Coding agents, agent skills, multi-agent game studios and MCP bridges into Unity
 | <a href="https://github.com/can1357/oh-my-pi"><img src="screenshots/can1357-oh-my-pi.jpg" width="120" alt=""></a> | **[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)** | 36.5k | 2026-10-25 | Coding agent with the IDE wired in (LSP and debugger ops, 60+ providers, 31 built-in tools); a fork of Pi by Stencil Labs. <br>*Note: Built on Pi (earendil-works/pi).* | [site / demo](https://omp.sh) |
 | <a href="https://github.com/OpenBMB/ChatDev"><img src="screenshots/openbmb-chatdev.jpg" width="120" alt=""></a> | **[OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)** | 34.6k | 2026-10-16 | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | [site / demo](https://arxiv.org/abs/2307.07924) |
 | <a href="https://github.com/ahujasid/mcp-for-blender"><img src="screenshots/ahujasid-mcp-for-blender.jpg" width="120" alt=""></a> | **[ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** | 32.3k | 2026-10-24 | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation. | [site / demo](https://www.mcp-for-blender.com/) |
+| <a href="https://github.com/Donchitos/Claude-Code-Game-Studios"><img src="screenshots/donchitos-claude-code-game-studios.jpg" width="120" alt=""></a> | **[Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)** | 27.5k | 2026-10-19 | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |  |
 | <a href="https://github.com/QwenLM/Qwen3-Coder"><img src="screenshots/qwenlm-qwen3-coder.jpg" width="120" alt=""></a> | **[QwenLM/Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder)** | 16.8k | 2026-03-24 | Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team. |  |
 | <a href="https://github.com/CoplayDev/unity-mcp"><img src="screenshots/coplaydev-unity-mcp.jpg" width="120" alt=""></a> | **[CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp)** | 15.4k | 2026-10-19 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. | [site / demo](https://coplaydev.github.io/unity-mcp/) |
 | <a href="https://github.com/Coding-Solo/godot-mcp"><img src="screenshots/coding-solo-godot-mcp.jpg" width="120" alt=""></a> | **[Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)** | 6.3k | 2026-04-16 | MCP server for interfacing with Godot game engine. Provides tools for launching the editor, running projects, and capturing debug output. |  |
@@ -202,9 +203,12 @@ Interactive world models, playable video generation and procedural world/level g
 |---|---|---|---|---|---|
 | <a href="https://github.com/NVIDIA/cosmos"><img src="screenshots/nvidia-cosmos.jpg" width="120" alt=""></a> | **[NVIDIA/cosmos](https://github.com/NVIDIA/cosmos)** | 12.1k | 2026-10-21 | NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more. | [site / demo](https://www.nvidia.com/en-us/ai/cosmos/) |
 | <a href="https://github.com/princeton-vl/infinigen"><img src="screenshots/princeton-vl-infinigen.jpg" width="120" alt=""></a> | **[princeton-vl/infinigen](https://github.com/princeton-vl/infinigen)** | 7.4k | 2026-10-14 | Infinite Photorealistic Worlds using Procedural Generation | [site / demo](https://infinigen.org) |
+| <a href="https://github.com/Robbyant/lingbot-world"><img src="screenshots/robbyant-lingbot-world.jpg" width="120" alt=""></a> | **[Robbyant/lingbot-world](https://github.com/Robbyant/lingbot-world)** | 4.5k | 2026-07-09 | Advancing Open-source World Models | [site / demo](https://technology.robbyant.com/lingbot-world) |
 | <a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0"><img src="screenshots/tencent-hunyuan-hunyuanworld-1-0.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/HunyuanWorld-1.0](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)** | 3.0k | 2026-04-15 | Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels with Hunyuan3D World Model | [site / demo](https://3d.hunyuan.tencent.com/sceneTo3D) |
 | <a href="https://github.com/NVlabs/LongLive"><img src="screenshots/nvlabs-longlive.jpg" width="120" alt=""></a> | **[NVlabs/LongLive](https://github.com/NVlabs/LongLive)** | 2.8k | 2026-10-23 | Long Video Gen / World Model / World Action Model (Embodied) Infrastructure | [site / demo](https://nvlabs.github.io/LongLive) |
+| <a href="https://github.com/Tencent-Hunyuan/HY-World-2.0"><img src="screenshots/tencent-hunyuan-hy-world-2-0.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0)** | 2.8k | 2026-08-12 | HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds | [site / demo](https://3d-models.hunyuan.tencent.com/world/) |
 | <a href="https://github.com/SkyworkAI/Matrix-Game"><img src="screenshots/skyworkai-matrix-game.jpg" width="120" alt=""></a> | **[SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game)** | 2.8k | 2026-10-19 | Matrix-Game 4.0: Streaming Neural Rendering for Playable Games | [site / demo](https://matrix-game-v4-0.github.io/page/) |
+| <a href="https://github.com/Robbyant/lingbot-world-v2"><img src="screenshots/robbyant-lingbot-world-v2.jpg" width="120" alt=""></a> | **[Robbyant/lingbot-world-v2](https://github.com/Robbyant/lingbot-world-v2)** | 1.9k | 2026-09-10 | Infinite Worlds with Versatile Interactions | [site / demo](https://technology.robbyant.com/lingbot-world-v2) |
 | <a href="https://github.com/Tencent-Hunyuan/HY-WorldPlay"><img src="screenshots/tencent-hunyuan-hy-worldplay.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/HY-WorldPlay](https://github.com/Tencent-Hunyuan/HY-WorldPlay)** | 1.6k | 2026-06-10 | HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency | [site / demo](https://3d-models.hunyuan.tencent.com/world/) |
 | <a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager"><img src="screenshots/tencent-hunyuan-hunyuanworld-voyager.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager)** | 1.6k | 2026-04-15 | Voyager is an interactive RGBD video generation model conditioned on camera input, and supports real-time 3D reconstruction. | [site / demo](https://3d-models.hunyuan.tencent.com/world/) |
 | <a href="https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0"><img src="screenshots/tencent-hunyuan-hunyuan-gamecraft-1-0.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/Hunyuan-GameCraft-1.0](https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0)** | 761 | 2025-11-28 | Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition | [site / demo](https://hunyuan-gamecraft.github.io/) |
@@ -409,7 +413,9 @@ Playable games made or remade with AI, with source code.
 |---|---|---|---|---|---|
 | <a href="https://github.com/mshumer/Claude-of-Duty"><img src="screenshots/mshumer-claude-of-duty.jpg" width="120" alt=""></a> | **[mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty)** | 3.5k | 2026-07-25 | A Call of Duty-quality FPS in Three.js, built from a single prompt. |  |
 | <a href="https://github.com/ill-inc/biomes-game"><img src="screenshots/ill-inc-biomes-game.jpg" width="120" alt=""></a> | **[ill-inc/biomes-game](https://github.com/ill-inc/biomes-game)** | 2.7k | 2026-05-16 | Biomes is an open source sandbox MMORPG built for the web using web technologies such as Next.js, Typescript, React and WebAssembly. | [site / demo](https://www.biomes.gg) |
+| <a href="https://github.com/Kevin-Liu-01/Claude-of-Tanks"><img src="screenshots/kevin-liu-01-claude-of-tanks.jpg" width="120" alt=""></a> | **[Kevin-Liu-01/Claude-of-Tanks](https://github.com/Kevin-Liu-01/Claude-of-Tanks)** | 508 | 2026-10-25 | A World of Tanks-style armored combat simulator built directly with Three.js and Vite: 220 vehicles, 33 destructible battlefields, and 13 modes, with plate-level armor, ballistics, modules, spotting, and physics. Play in your browser on des | [site / demo](https://cot.kevinliu.studio) |
 | <a href="https://github.com/mrdoob/three-quake"><img src="screenshots/mrdoob-three-quake.jpg" width="120" alt=""></a> | **[mrdoob/three-quake](https://github.com/mrdoob/three-quake)** | 340 | 2026-08-14 | A port of Quake to Three.js. | [Play in browser](https://mrdoob.github.io/three-quake/) |
+| <a href="https://github.com/corosolto/client"><img src="screenshots/corosolto-client.jpg" width="120" alt=""></a> | **[corosolto/client](https://github.com/corosolto/client)** | 259 | 2026-10-25 | FPS satírico de navegador: 5 facções brasileiras caricatas, 44 personagens, 5 mapas e 26 armas — rounds e Capture the Flag contra bots, direto na aba, sem instalar nada. Three.js + vanilla JS, zero build. Gerado em par com agentes de IA (Cl | [site / demo](https://www.corosolto.com.br) |
 
 More playable AI-made games without public source live in [aviaryan/awesome-ai-games](https://github.com/aviaryan/awesome-ai-games) and [AgentsLoop/awesome-opus-5.5-games](https://github.com/AgentsLoop/awesome-opus-5.5-games).
 
